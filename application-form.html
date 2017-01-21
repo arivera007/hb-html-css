@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+<head>
+    <title>Application Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1 id="boxed">Welcome, please give us your application details:</h1><br>
+  
+  <form action="/application-success" method=[post]>
+        <label for='name'>First name: </label>
+        <input id='name' class='inputbox' type="text" name="firstname"><br>
+        <label for='lname'>Last name: </label>
+        <input id= 'lname' class='inputbox' type="text" name="lastname"><br>
+        <label for='s_jobtype'>Desired Job Type: </label>
+        <select id='s_jobtype' name="jobtype">
+            <option value="soft_engineer">Software Engineer</option>
+            <option value="qa_engineer">QA Engineer</option>
+            <option value="prosuct_manager">Product Manager</option>
+        </select><br>
+        <label for='t_salary'>Desired Salary: </label>
+        <input id= 't_salary' class='inputbox' type="text" name="salary"><br>
+
+        <input type="submit" class='button' value="Submit" > <!-- button don't require accesibility -->
+    </form>
+  
+
+
+</body>
+</html>

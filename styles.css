@@ -1,0 +1,19 @@
+
+
+.button {
+  background-color: yellow;
+}
+
+.inputbox {
+  background-color: blue;
+  
+}
+
+#boxed {
+  border-style: double;
+  
+}
+
+#lname {
+  font-weight: bold;
+}
